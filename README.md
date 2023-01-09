@@ -22,7 +22,7 @@
 - [📝 License](#license)
 
 
-# 📖 [Crispin_Portfolio] <a name="about-project"></a>
+# 📖 [Crispin_Milestone_Portfolio] <a name="about-project"></a>
 
 **[Milestone]** is a project developed using HTML, CSS, Javascript and some Bootstrap It has all the details about my experoience, the projects I developed, Skills, programming languages that i know, the frameworks, and the contact form to get in touch with me.
 
