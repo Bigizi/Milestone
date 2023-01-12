@@ -43,12 +43,8 @@
 
 .section1 {
     margin-top: 40px;
-    background-image: url('./images/new.jpg');
-    background-size: cover;
-}
-
-.section1-a {
-    margin-left: 4%;
+    background-color: #f3efefa6;
+    padding: 40px 10%;
 }
 
 .section1-b {
@@ -57,17 +53,23 @@
 }
 
 .section1-c{
-    margin-left: 4%;
-}
-
-#section1-c-p {
+    margin-left: 20%;
+    justify-content: center;
     color: #272a31;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 17px;
 }
 
+.paragra {
+    margin-left: 15%;
+}
+
+.paragraph {
+    margin-left: 17%;
+    font-weight: bold;
+    text-decoration: underline;
+}
 .section1-h4 {
-    color: #fff;
+    color: orangered;
     font-weight: bold;
     font-size: 18px;
 }
@@ -78,18 +80,48 @@
 }
 
 .section2 {
-    background-image: url('./images/background-pattern.png');
-    height: 750px;
+    background-color: #fff;
+    height: 400px;
+    justify-content: center;
 }
 
-.section2-header {
+.section2-header h2 {
+    justify-content: center;
     text-align: center;
-    padding-top: 12px;
 }
 
-.section2-h {
-    color: #fff;
+.section2-paragraph {
+    width: 80%;
+    text-align: center;
+    margin-left: 9%;
+    color: #363535a6;
+    font-weight: bold;
+    font-size: 14px;
 }
+
+.section2-logo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #535151a6;
+    width: 90%;
+    justify-content: center;
+    height: 220px;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.my-logo {
+    width: 300px;
+    height: 170px;
+    margin-left: 26%;
+}
+
+.two-line {
+    margin-left: 5%;
+    width: 80%;
+    text-align: center;
+}
+
 
 .section3 {
     background-color: #fff;
@@ -97,19 +129,41 @@
     flex-direction: column;
 }
 
-.section3-header {
+.span {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.s-para {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900; 
+}
+
+.section3-imgs {
+    background-image: url('./images/summit.jpg');
+    background: linear-gradient();
+    width: 80%;
+    height: 340px;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 20%;
+    margin-left: 10%;
+    opacity: 0.7;
+    mix-blend-mode: normal;
 }
 
-.section3-h {
-    color: #272a31;
-}
-
-.section3-cards {
-    display: flex;
-    flex-direction: column;
-    padding-top: 15px;
+.section3-img {
+    background-image: url('./images/summit3.jpg');
+    text-align: center;
+    width: 80%;
+    height: 340px;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20%;
+    margin-left: 10%;
+    opacity: 0.7;
+    mix-blend-mode: normal;
 }
 
 .section4 {
@@ -117,6 +171,11 @@
     display: flex;
     flex-direction: column;
     height: 160px;
+}
+
+.section3-header {
+    text-align: center;
+    padding-top: 12px;
 }
 
 .section5 {
@@ -153,54 +212,6 @@
     margin-right: 15px;
 }
 
-.all-cards {
-    display: grid;
-    grid-template-columns: 30% 50%;
-    gap: 70px;
-}
-
-.img-container {
-    position: relative;
-}
-
-.all-images {
-    width: 170px;
-    height: 170px;
-    position: absolute;
-    margin-left: -56%;
-    margin-top: 10%;
-}
-
-.all-image {
-    width: 90px;
-    height: 90px;
-}
-
-.cards-details {
-    display: flex;
-    flex-direction: column;
-}
-
-.cards-h5 {
-    color: #272a31;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.cards-span {
-    color: #ec5242;
-    font-size: 13px;
-}
-
-.line {
-    width: 30px;
-}
-
-.cards-para {
-    text-align: center;
-    width: 100%;
-}
-
 .break-line {
     background-color: #ec5242;
     color: #ec5242;
@@ -210,11 +221,6 @@
     margin-left: 43%;
     align-items: center;
     text-align: center;
-}
-
-.card-h {
-    color: #ec5242;
-    font-size: 15px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -250,8 +256,7 @@
         background-color: #ec5342e7;
         height: 100vh;
         mix-blend-mode: normal;
-        margin-top: 20px;
-        opacity: 1;
+        float: right;
       }
 
       .links {
@@ -280,30 +285,14 @@
       }
 
       .section1-b {
-        border: 1px solid white;
-        margin-left: 4%;
+        border: 3px solid white;
+        margin-left: 10%;
         width: 80%;
-        height: 80px;
-    }
-
-      .cards {
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
+        height: 110px;
         justify-content: center;
-        background-color: rgba(255, 255, 255, 0.1);
-        margin-left: 4%;
         text-align: center;
-        width: 90%;
-        height: 100px;
-        align-items: center;
-        padding-left: 10px;
-        color: #fff;
-    }
-
-    .btn {
-        text-align: center;
-        justify-content: center;
+        background-color: #fff;
+        color: #272a31;
     }
 
     .logo-footer {
@@ -311,25 +300,10 @@
         height: 90px;
     }
 
-    .card-btn-b {
-        color: #fff;
-        background-color: #ec5242;
-        width: 220px;
-        height: 60px;
-        font-size: 14px;
-        border: none;
-    }
-    .all-images {
-        width: 140px;
-        height: 140px;
-        position: absolute;
-        margin-left: -62%;
-        margin-top: 10%;
-    }
-    
-    .all-image {
-        width: 100px;
-        height: 100px;
+    .section1-a {
+        justify-content: center;
+        text-align: center;
+        margin-left: 8%;
     }
 }
 
@@ -362,14 +336,17 @@
 
     .logo-footer {
         width: 200px;
+        height: 90px;
+        margin-top: 25px;
     }
 
     .footer {
         justify-content: center;
         margin-top: 50px;
-        color: #272a31;
+        color: #fff;
         font-weight: bold;
         font-size: 20px;
+        margin-right: 20px;
     }
 
     .new-link {
@@ -388,30 +365,10 @@
 
     .section1-b {
         border: 2px solid white;
-        margin-left: 4%;
-        width: 60%;
+        margin-left: 16%;
+        width: 65%;
         height: 80px;
-    }
-
-    #li-b {
-        color: #ec5242;
-    }
-
-    #li-a {
-        border: 3px solid #ec5242;
-        color: #ec5242;
-    }
-
-    .section2 {
-        height: 400px;
-    }
-
-    .section2-cards {
-        display: flex;
-        flex-direction: row;
-        gap: 2px;
-        justify-content: center;
-        margin-top: 4%;
+        text-align: center;
     }
 
     .break-line {
@@ -425,39 +382,53 @@
         text-align: center;
     }
 
-    .cards {
-        display: flex;
-        flex-direction: column;
-        border: white;
-        color: #fff;
-        justify-content: center;
-        background-color: rgba(255, 255, 255, 0.1);
-        font-size: 13px;
-        align-items: center;
-        width: 175px;
-        height: 180px;
-    }
-
     .section1-h1 {
         color: #ec5242;
         font-weight: bold;
         font-size: 50px;
     }
 
-    .section2-img {
-        width: 44px;
-        height: 44px;
+    .two-line {
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
     }
 
-    .btn {
-        display: none;
+    .section2-logo {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #535151a6;
+        width: 40%;
+        justify-content: center;
+        height: 220px;
+        text-align: center;
+        margin-left: 30%;
     }
 
-    .section3-cards {
-        padding-left: 200px;
-        padding-right: 200px;
-        display: grid;
-        grid-template-columns: auto auto;
+    .my-logo {
+        width: 300px;
+        height: 170px;
+        margin-left: 22%;
+    }
+
+    .section1-c{
+        margin-left: 30%;
+        justify-content: center;
+        color: #272a31;
+        font-size: 15px;
+    }
+
+    #pa {
+        margin-left: 8%;
+    }
+
+    #li-a {
+        border: 3px solid #ec5242;
+        color: #ec5242;
+    }
+
+    #li-b {
+        color: #ec5242;
     }
 
     .sponsor-p {
@@ -468,13 +439,41 @@
         margin-right: 20px;
     }
 
-    .section5 {
-        background-color: #fff;
-        height: 130px;
-        display: flex;
+    .section1-a {
         justify-content: center;
-        padding-top: 17px;
-        margin-right: 100px;
+        text-align: center;
+        margin-left: 8%;
+    }
+
+    .section1-h4 {
+        display: none;
+    }
+
+    .section5 {
+        background-color: #272a31;
+        color: #fff;
+        height: 180px;
+    }
+
+    .section4 {
+        display: none;
+    }
+
+    .my-imgs {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .section3-imgs {
+        width: 80%;
+        height: 340px;
+        padding-top: 10%;
+    }
+    
+    .section3-img {
+        width: 80%;
+        height: 340px;
+        padding-top: 10%;
     }
 
 }
