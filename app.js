@@ -62,6 +62,7 @@ burger.addEventListener('click', () => {
   const speakers = document.querySelector('.section3-cards');
 
   for (let i = 0; i < developers.length; i++) {
+    
     speakers.innerHTML += `
     <div class="all-cards">
         <div class="img-container">
