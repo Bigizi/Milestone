@@ -61,7 +61,7 @@
 
 > Here is the where the project is deployed and video presentation.
 
-- [Live Demo Link](https://gleeful-griffin-1404a6.netlify.app/)
+- [Live Demo Link](https://lively-liger-966d02.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
