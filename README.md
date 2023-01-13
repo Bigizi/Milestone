@@ -136,5 +136,7 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> My appreciations and thanks go to Cindy Shin for designing this project and I would like to thank all my coding partners, morning session team and stand up call team for the support.
+> Design credit:
+> Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+> I would like to thank all my coding partners, morning session team and stand up call team for the support.
+<p align="right">(<a href="#acknowledgements">back to top</a>)</p>
