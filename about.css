@@ -139,30 +139,45 @@
   color: #fff;
   font-size: 20px;
   font-weight: 900;
+  text-align: center;
+}
+
+.all-1 {
+  background-image: url('./images/summit.jpg');
+  width: 70%;
+  height: 340px;
+  position: relative;
+  background-position: center;
 }
 
 .section3-imgs {
-  background-image: url('./images/summit.jpg');
-  width: 80%;
-  height: 340px;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: #fff;
+  background-image: linear-gradient(rgba(158, 3, 3, 0.6), rgba(234, 20, 20, 0.6));
   text-align: center;
-  padding-top: 20%;
-  margin-left: 10%;
-  opacity: 0.7;
-  mix-blend-mode: normal;
+}
+
+.section3-imgs p {
+  width: 100%;
+}
+
+.all-2 {
+  background-image: url('./images/summit3.jpg');
+  width: 70%;
+  height: 340px;
 }
 
 .section3-img {
-  background-image: url('./images/summit3.jpg');
+  background-image: linear-gradient(rgba(158, 3, 3, 0.6), rgba(234, 20, 20, 0.6));
   text-align: center;
-  width: 80%;
-  height: 340px;
   font-size: 16px;
   color: #fff;
   padding-top: 20%;
-  margin-left: 10%;
-  opacity: 0.7;
-  mix-blend-mode: normal;
 }
 
 .section4 {
@@ -311,6 +326,34 @@
     gap: 10px;
     margin-left: 15px;
     text-decoration: none;
+  }
+  .my-imgs {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 25%;
+  }
+
+  .section3-imgs {
+    height: 340px;
+    padding-top: 30%;
+  }
+
+  .section3-img {
+    height: 340px;
+    padding-top: 30%;
+  }
+
+  .all-1 {
+    width: 95%;
+  }
+
+  .all-2 {
+    width: 95%;
   }
 }
 
@@ -481,18 +524,21 @@
 
   .my-imgs {
     display: flex;
-    margin-right: 20px;
+    padding: 15px;
+    gap: 15px;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   .section3-imgs {
-    width: 80%;
     height: 340px;
-    padding-top: 10%;
+    padding-top: 30%;
   }
 
   .section3-img {
-    width: 80%;
     height: 340px;
-    padding-top: 10%;
+    padding-top: 30%;
   }
 }

@@ -137,4 +137,4 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank all my coding partners, morning session team and stand up call team for the support.
+> My appreciations and thanks go to Cindy Shin for designing this project and I would like to thank all my coding partners, morning session team and stand up call team for the support.

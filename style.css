@@ -45,6 +45,7 @@
   margin-top: 40px;
   background-image: url('./images/new.jpg');
   background-size: cover;
+  padding-top: 30px;
 }
 
 .section1-a {
@@ -172,13 +173,13 @@
   width: 170px;
   height: 170px;
   position: absolute;
-  margin-left: -56%;
-  margin-top: 10%;
+  margin-left: -50%;
+  margin-top: 8%;
 }
 
 .all-image {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 70px;
 }
 
 .cards-details {
@@ -231,6 +232,18 @@
 @media only screen and (max-width: 768px) {
   .social-m {
     display: none;
+  }
+
+  .section3 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .section1-c {
+    margin-left: 4%;
+    margin-top: 3%;
   }
 
   .burger.active .line1:nth-child(2) {
@@ -293,6 +306,7 @@
     width: 80%;
     height: 80px;
     font-size: 18px;
+    margin-top: 2%;
   }
 
   .cards {
@@ -333,13 +347,13 @@
     width: 140px;
     height: 140px;
     position: absolute;
-    margin-left: -40%;
-    margin-top: 10%;
+    margin-left: -33%;
+    margin-top: 5%;
   }
 
   .all-image {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 70px;
   }
 }
 
@@ -452,6 +466,10 @@
     align-items: center;
     width: 175px;
     height: 180px;
+  }
+
+  .cards:hover {
+    border: 1px solid #fff;
   }
 
   .section1-h1 {
