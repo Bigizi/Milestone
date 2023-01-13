@@ -30,7 +30,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project is built in HTML, CSS, Javascript and some Bootstrap
+> This project is built in HTML, CSS and Javascript
 
 <details>
   <summary>Client</summary>
@@ -39,6 +39,9 @@
   </ul>
   <ul>
     <li><a href="https://reactjs.org/">CSS</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://reactjs.org/">JAVASCRIPT</a></li>
   </ul>
 </details>
 <details>
@@ -49,17 +52,16 @@
 
 > This project has the following feature.
 
-- **[About_me_feature]**
-- **[Contact_me_form_feature]**
-- **[Pop_up_window_feature]**
+- **[Home_page]**
+- **[About_Page]**
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Here is the where the project is deployed.
+> Here is the where the project is deployed and video presentation.
 
-- [Live Demo Link](https://bigizi.github.io/Portfolio/)
+- [Live Demo Link](https://lively-liger-966d02.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +86,7 @@ Install any code editor in your computer
 
 clone the repo using this command:
 
-git clone [https://github.com/Bigizi/Portfolio]
+git clone [https://github.com/Bigizi/Milestone]
 
 ### Usage
 
@@ -99,24 +101,10 @@ Navigating to your repo use this command: cd [directory-name]
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@Crispin](https://github.com/Bigizi)
 - LinkedIn: [Crispin](https://www.linkedin.com/in/bigizi-nduwayo-crispin-74b534227/)
-
-
-👤 **Author2**
-
-- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
-- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
-- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
-
-
-👤 **Author3**
-
-- GitHub: [@Rudy](https://github.com/Rudy-Menekam)
-- Twitter: [@Rudy](https://twitter.com/MenekamR)
-- LinkedIn: [@Rudy](https://www.linkedin.com/in/menekam-rudy/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +113,7 @@ Navigating to your repo use this command: cd [directory-name]
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[new_feature_1]** More JavaScript functionalities.
+- [ ] **[new_feature_1]** More CSS animation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +127,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
->This project will help you to know step by step to build a portfolio using HTML and CSS
+>This project will help you to know step by step to build a portfolio using HTML, CSS and JAVASCRIPT
 
 If you like this project...
 
@@ -148,5 +136,7 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> I would like to thank all my code partners, morning session team and stand up call team
+> Design credit:
+> Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+> I would like to thank all my coding partners, morning session team and stand up call team for the support.
+<p align="right">(<a href="#acknowledgements">back to top</a>)</p>
