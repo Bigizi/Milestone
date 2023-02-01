@@ -32,7 +32,6 @@
 
 > This project is built in HTML, CSS and Javascript
 
-<details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">HTML</a></li>
@@ -43,8 +42,6 @@
   <ul>
     <li><a href="https://reactjs.org/">JAVASCRIPT</a></li>
   </ul>
-</details>
-<details>
 
 <!-- Features -->
 
@@ -61,7 +58,7 @@
 
 > Here is the where the project is deployed and video presentation.
 
-- [Live Demo Link](https://lively-liger-966d02.netlify.app/)
+- [Live Demo Link](https://main--stunning-smakager-394a28.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
